@@ -18,7 +18,7 @@ export default function BannerCard() {
 
   useEffect(() => {
     // Fetch some books for the banner
-    fetch("http://localhost:3000/all_books")
+    fetch("https://bookstorebackend-gtnr.onrender.com/all_books")
       .then(res => res.json())
       .then(data => {
         // Get 6 random books for the banner

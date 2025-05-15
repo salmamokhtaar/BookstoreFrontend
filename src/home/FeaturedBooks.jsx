@@ -13,7 +13,7 @@ function FeaturedBooks() {
     const fetchBooks = async () => {
       try {
         setIsLoading(true);
-        const response = await fetch("http://localhost:3000/all_books");
+        const response = await fetch("https://bookstorebackend-gtnr.onrender.com/all_books");
         const data = await response.json();
 
         // For featured books, we'll take 3 random books

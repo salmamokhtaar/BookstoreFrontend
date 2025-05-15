@@ -11,7 +11,7 @@ function BestSellerBooks() {
     const fetchBooks = async () => {
       try {
         setIsLoading(true);
-        const response = await fetch("http://localhost:3000/all_books");
+        const response = await fetch("https://bookstorebackend-gtnr.onrender.com/all_books");
         const data = await response.json();
 
         // Sort books by some criteria to determine "best sellers"

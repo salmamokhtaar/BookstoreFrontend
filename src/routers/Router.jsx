@@ -19,7 +19,7 @@ import UserProfile from "../components/UserProfile";
 import axios from "axios";
 
 // API base URL
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://bookstorebackend-gtnr.onrender.com';
 
 // Create custom loaders that include auth token if available
 const createAuthLoader = (url) => async () => {
